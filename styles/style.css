@@ -242,9 +242,8 @@ header h1 { font-weight: 200; }
 .bg-brand { background-color: #1f0178; }
 
 footer a { color: #ccc; }
-
-footer a:hover, footer a:focus { color: #eee; }
-
+.footer-menu li a{font-size: 12px; padding: 4px;}
+.footer-menu li a:hover{color: green}
 .btn-line { background-color: #fff; border: 1px solid #ccc; padding: 8px; font-size: 13px; height: 38px; }
 
 /*about us page*/
@@ -648,6 +647,7 @@ footer a:hover, footer a:focus { color: #eee; }
 
 
 .searchmenufiled{position: absolute; right: 60px}
+.searchmenufiled-tut{position: absolute; right: 15px}
 .bordernone{ border: 0px}
 
 .nav-item > .btn:active, .btn.active {
