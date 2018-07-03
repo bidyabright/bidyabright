@@ -42,6 +42,7 @@ h1, h2 { color: #1f0178; }
 .f-width { width: 100%; }
 
 .font-xs { font-size: 15px; }
+.font-xs-s { font-size: 20px; }
 
 .font-xm { font-size: 14px; }
 
@@ -262,7 +263,7 @@ footer a { color: #ccc; }
 
 .service-card-o { background: url(skyscraper-o.png); text-align: center; height: 120px; background-position: right; padding: 25px; border-bottom-right-radius: 10px; border-top-right-radius: 10px; }
 
-.bg-s { background: url(service-bg.jpg) 50% 100% fixed; width: 100%; background-position: center; border-radius: 10px; border: 1px solid #ccc; }
+/*.bg-s { background: url(images/service-bg.jpg) 50% 100% fixed; width: 100%; background-position: center; border-radius: 10px; border: 1px solid #ccc; }*/
 
 .effect6 { position: relative; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }
 
@@ -705,12 +706,18 @@ footer a { color: #ccc; }
 	.side-menu{background: rgba(31, 1, 120, 1); top: -39px !important;}
 	.service-top-card { width: 60%; }
 
+
  
 }
 @media (max-width: 640px) { 
 .carousel-inner{ height: 50vh }
 .bg-s-a{height: auto;}
 .service-card-s{height: auto; margin-top: 20vh}
+.swipenavigation .next, .swipenavigation .back {display: block!important;}
+.search-box{ display: none }
+.jumbotron img{ width: 100% }
+.side-menu{ display: none }
+.nav-tabs .nav-item {font-size: 12px;}
 }
 
 @media (max-width: 420px) { 
