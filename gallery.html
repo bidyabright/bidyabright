@@ -120,7 +120,7 @@
           </div>
 <!--  ******************************about us START******************************************-->
 	<h2 class="text-center m-TB-30">OUR GALLERY</h2>
-	<h4 class="text-center font-xs M-B-30">LIFE IS BEAUTIFUL - ENJOY !</h4>
+	<h4 class="text-center font-xs-s M-B-30">LIFE IS BEAUTIFUL - ENJOY !</h4>
  	<div class="strip-line m-r-LR-15"><c></c></div>
  	<div class="row m-r-LR-15">
 	</div>
@@ -283,139 +283,6 @@
     <!--menu responsive-->
     <script src="js/bootstrap.js"></script>
     <!--<script src="jquery-3.2.1.js"></script>-->
-
-  <!--menu responsive-->
- <script type="text/javascript">
-	// This is where it all goes :)
-
-$(document).on('ready', function() {
-  var $target = $('.js-swipenavigation');
-  var hasTapEvent = ('ontouchstart' in window);
-
-  if(hasTapEvent) {
-    $target.find('a').each(function(index, el) {
-      var $el = $(el);
-      $el.addClass('hover-disabled');
-      $el.on('touchstart', function(event) {
-        $el.addClass('touch');
-      });
-      $el.on('touchend', function(event) {
-        $el.removeClass('touch');
-      });
-    });
-  } else {
-    //mousewheel
-    $target.on('mousewheel', function(event) {
-      event.preventDefault();
-      var $el = $target.find('ul');
-      $el.scrollLeft($el.scrollLeft()-event.deltaY);
-      updateScroll();
-    });
-
-    //next/back
-    $(window).on('load resize', _.throttle(checkScroll, 100));
-    $target.find('.next').on('click', function(event) {
-      event.preventDefault();
-      var $el = $target.find('ul');
-      $el.scrollLeft($el.scrollLeft()+30);
-      updateScroll();
-    });
-    $target.find('.back').on('click', function(event) {
-      event.preventDefault();
-      var $el = $target.find('ul');
-      $el.scrollLeft($el.scrollLeft()-30);
-      updateScroll();
-    });
-  }
-
-  function updateScroll() {
-    var $el = $target.find('ul');
-    if(parseInt($el.scrollLeft()) == 0) {
-      $target.find('.back').addClass('is-hidden');
-    } else {
-      $target.find('.back').removeClass('is-hidden');
-    }
-
-    var width = 0;
-    $target.find('ul').find('li').each(function(index, el) {
-      width += $(el).width();
-    });
-
-    if(parseInt($el.scrollLeft()) + parseInt($target.find('ul').width()) == width) {
-      $target.find('.next').addClass('is-hidden');
-    } else {
-      $target.find('.next').removeClass('is-hidden');
-    }
-  }
-
-  function checkScroll() {
-    if($target.find('ul')[0].clientHeight == $target.find('ul')[0].offsetHeight) {
-      $target.removeClass('has-scroll');
-    } else {
-      $target.addClass('has-scroll');
-    }
-    updateScroll();
-  }
-
-});
-
-</script>
-<!--menubar-->
-<script type="text/javascript">
-$( document ).ready(function() {`$(function() {`
-	$('#showdiv1').click(function() {
-		$('div[id^=div]').hide();
-		$('#div1').fadeIn(3000);
- 		$('#div1').show();
-	});
-	$('#showdiv2').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div2').fadeIn("slow");` $('#div2').show();
-	});`
-	$('#showdiv3').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div3').fadeIn("slow");` $('#div3').show();
-	});`
-	});
-	$('#showdiv4').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div4').fadeIn("slow");` $('#div4').show();
-	});`
-	});
-	$('#showdiv5').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div5').fadeIn("slow");` $('#div5').show();
-	});`
-	});
-	$('#showdiv6').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div6').fadeIn("slow");` $('#div6').show();
-	});`
-	});
-	$('#showdiv7').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div7').fadeIn("slow");` $('#div7').show();
-	});`
-	});
-	$('#showdiv101').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div101').fadeIn("slow");` $('#div101').show();
-	});`
-	});
-	$('#showdiv102').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div102').fadeIn("slow");` $('#div102').show();
-	});`
-	});
-	$('#showdiv103').click(function() {
-		$('div[id^=div]').hide();
-    	$('#div103').fadeIn("slow");` $('#div103').show();
-	});`
-	});
-});
-});
-
-</script>
 <!--card button-->
 <script type="text/javascript">
 $('document').ready(function() {
@@ -438,24 +305,6 @@ jQuery(document).ready(function(){
         });
     });
 </script>
-<!--affix-->
-<script type="text/javascript">
-	$('.navbar').affix({
-    offset:{
-        top: $('#header').outerHeight(),
-        bottom: $('#header').outerHeight() - 200
-    }
-});
-
-$('#sidemenu').affix({
-    offset:{
-        top: $('#header').outerHeight(),
-        bottom: $('footer').outerHeight() + 50
-    }
-});
-
-</script>
-<!-- fix header top-->
 
     <!--scroll to fix header-->
 <script src="js/jquery-scrolltofixed.js" type="text/javascript"></script>
