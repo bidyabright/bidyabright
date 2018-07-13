@@ -275,13 +275,17 @@ footer a { color: #ccc; }
 
 .bg-c-o-5 { background: url(skyscraper-o.png); background-repeat: repeat; }
 
-.d-icon, .de-icon, .l-icon { height: 32px; width: 32px; margin: 0 auto; }
+.d-icon, .de-icon, .l-icon, .do-icon, .po-icon, .en-icon { height: 32px; width: 32px; margin: 0 auto; }
 
 .d-icon { background: url(design.png); }
 
 .de-icon { background: url(develop.png); }
 
 .l-icon { background: url(learning.png); }
+
+.do-icon { background: url(download.png); }
+.po-icon { background: url(portfolio.png); }
+.en-icon { background: url(entertainment.png); }
 
 /*  -------------------TEXT SHADOW -------------------------*/
 /*----------------------------------------------------*/
@@ -694,6 +698,13 @@ footer a { color: #ccc; }
 .blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
 .blockquote-box.blockquote-danger{border-color:#D43F3A}
 .blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
+
+
+.model-portfolio{border: 2px solid #000;}
+.model-portfolio > .modal-dialog{border: 5px solid #002596; max-width: fit-content; background: #fff;}
+button.model-close{top: -18px; background: #fff; color: #001f9b; right: -19px; padding: 8px; line-height: 20px; border-radius: 20px; border: 2px solid #002596;}
+
+
 /*responsive*/
 
 @media (min-width: 768px) { #sidemenu.affix { position: fixed; top: 40px; } }
