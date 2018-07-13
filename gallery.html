@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="utf-8">
     <meta name="google-site-verification" content="J7svH-hUyDg950n6pHbP8zy_jZZ2DrPsf-wSwQh-VvY" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="content-type" content="textimages/;charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <META NAME="keyword" CONTENT="">
     <meta name="description" content="bidyabright is a technology agency which provides services such as design & development, troubleshooting, building website and providing social media solutions. Also We provide E- learning service and Web design services">
@@ -31,6 +31,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
      <link href="styles/font-awesome.css" rel="stylesheet">
+     <style type="text/css">
+     	.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+  min-height:400px;
+  background:#ccc;
+}
+
+
+
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+#image {
+  min-height:200px;
+}
+     </style>
   </head>
 
 <body>
@@ -88,56 +121,60 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="col-12 col-sm-4 p-0">
                 <div class="service-card-w">
                   <div class="bg-c-w-5">
-                      <div class="d-icon"></div>
+                   <a id="showdiv2" href="#">
+                      <div class="po-icon"></div>
                         <h3>PORTFILIO</h3>
                         <div class="text-center menu-b-content">
                         <div class="popEffect">
                           <span>WEBSITE</span>
                           <span>LOGO</span>
                           <span>GRPHIC WORKS</span>
-                          <span>GRAPHICS</span>
                         </div>
                         </div>
+                       </a>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-sm-4 p-0">
                 <div class="service-card-b">
-                  <div class="de-icon"></div>
+                <a id="showdiv3" href="#">
+                  <div class="do-icon"></div>
                   <div class="bg-c-w-5">
                   <h3>DOWNLOAD</h3>
                   <div class="popEffect">
                           <span>PHOTO FRAME</span>
-                          <span>GRAPHICS</span>
                           <span>ICONS</span>
                           <span>HD PHOTOS</span>
                         </div>
                   </div>
+                  </a>
                 </div>
               </div>
               <div class="col-12 col-sm-4 p-0">
                 <div class="service-card-o">
-                  <div class="l-icon"></div>
+                <a id="showdiv4" href="#">
+                  <div class="en-icon"></div>
                   <div class="bg-c-w-5">
                   <h3>ENTERTEMENT</h3>
                   <div class="popEffect">
                           <span>MUSIC</span>
-                          <span>COMEDY</span>
                           <span>FUNNY VIDEO</span>
-                          <span>JOKES</span>
+                          <span>REAL VIDEO</span>
                         </div>
                   </div>
+                  </a>
                 </div>
               </div>
 
             </div>
           </div>
 <!--  ******************************about us START******************************************-->
+<div class="row m-r-LR-15" id="div1" class="targetDiv">
+<div class="container">
 	<h2 class="text-center m-TB-30">OUR GALLERY</h2>
 	<h4 class="text-center font-xs-s M-B-30">LIFE IS BEAUTIFUL - ENJOY !</h4>
  	<div class="strip-line m-r-LR-15"><c></c></div>
- 	<div class="row m-r-LR-15">
-	</div>
+ </div>
  	<div class="bg-s-a">
   <div class="service-card-s">
  		<div class="text-center">
@@ -242,7 +279,249 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  	    </div>
       </div>
  	</div>
-<!--  ******************************about us end******************************************-->		
+</div>
+<!--  ******************************about us end******************************************-->
+
+<!-- =============PORTFOLIO ===================  -->
+<div id="div2" class="p-15">
+
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item"><a class="nav-link active" href="#PLogo" role="tab" data-toggle="tab">LOGO</a></li>
+  <li class="nav-item"><a class="nav-link" href="#PGraphics" role="tab" data-toggle="tab">GRAPHICS</a></li>
+  <li class="nav-item"><a class="nav-link" href="#PWebsite" role="tab" data-toggle="tab">WEBSITE</a></li>
+  <li class="nav-item"><a class="nav-link" href="#PArchiture" role="tab" data-toggle="tab">ARCHITURE</a></li>
+  <li class="nav-item"><a class="nav-link" href="#PProduct" role="tab" data-toggle="tab">PRODUCT DESIGN</a></li>
+</ul>
+<!-- Tab panes -->
+<div class="tab-content">
+<!-- Modal -->
+<div class="modal fade model-portfolio" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+       <button type="button" class="close model-close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>        
+                <img src="//media.tenor.com/images/556e9ff845b7dd0c62dcdbbb00babb4b/tenor.gif" alt="" id="image" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+</div> 
+  <div role="tabpanel" class="tab-pane active" id="PLogo">
+    <div class="gallery">
+    <div class="row">
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo1-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo1-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo2-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo2-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo3-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo3-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo4-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo4-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo5-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo5-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo6-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo6-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+     <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo7-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo7-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/logo8-small.png" alt="logo" data-toggle="modal" data-bigimage="gallery/portfolio/logo8-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+  </div>
+</div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="PGraphics">
+<div class="gallery">
+    <div class="row">
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics1-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics1-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics2-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics2-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics3-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics3-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics4-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics4-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics5-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics5-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics6-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics6-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics7-small.png" alt="graphics"  data-toggle="modal" data-bigimage="gallery/portfolio/graphics7-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics8-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics8-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics9-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics9-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics10-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics10-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics11-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics11-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/graphics12-small.png" alt="graphics" data-toggle="modal" data-bigimage="gallery/portfolio/graphics12-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+  </div>
+</div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="PWebsite">
+  	<div class="gallery">
+    <div class="row">
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website1-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website1-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website2-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website2-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website3-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website3-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website4-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website4-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website5-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website5-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website6-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website6-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website7-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website7-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    <img src="gallery/portfolio/website8-small.png" alt="website" data-toggle="modal" data-bigimage="gallery/portfolio/website8-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    </div>
+  </div>
+</div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="PArchiture">
+  	<div class="gallery">
+     	<div class="row">
+     	   <div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure1-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure1-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure2-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure2-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure3-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure3-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure4-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure4-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure5-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure5-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure6-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure6-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure7-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure7-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/architure8-small.png" alt="Architure" data-toggle="modal" data-bigimage="gallery/portfolio/architure8-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+     	</div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="PProduct">
+  	<div class="gallery">
+    	<div class="row">
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product1-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product1-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#"  class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product2-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product2-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product3-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product3-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product4-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product4-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#"  class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product5-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product5-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product6-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product6-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#" class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product7-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product7-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    		<div class="col-lg-3 col-md-4 col-xs-6"><a href="#"  class="d-block mb-4 h-100">
+    			<img src="gallery/portfolio/product8-small.png" alt="Product" data-toggle="modal" data-bigimage="gallery/portfolio/product8-big.png" data-target="#myModal" class="img-fluid img-responsive"></a>
+    		</div>
+    	</div>
+    </div>
+  </div>
+</div>
+
+</div>	
+<!-- =============DOWNLOAD ===================  -->
+<div id="div3" class="p-15">
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item"><a class="nav-link active" href="#Dphotoframe" role="tab" data-toggle="tab">PHOTO FRAME</a></li>
+  <li class="nav-item"><a class="nav-link" href="#Dphotos" role="tab" data-toggle="tab">HD PHOTOS</a></li>
+  <li class="nav-item"><a class="nav-link" href="#DIcons" role="tab" data-toggle="tab">ICONS</a></li>
+  <li class="nav-item"><a class="nav-link" href="#Dthemes" role="tab" data-toggle="tab">DAY THEMES</a></li>
+</ul>
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="Dphotoframe">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="Dphotos">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="DIcons">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="Dthemes">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+</div>
+
+</div>	
+<!-- =============ENTERTEMENT ===================  -->
+<div id="div4" class="p-15">
+
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item"><a class="nav-link active" href="#profile" role="tab" data-toggle="tab">MUSICS</a></li>
+  <li class="nav-item"><a class="nav-link" href="#buzz" role="tab" data-toggle="tab">FUNNY VIDEOS</a></li>
+  <li class="nav-item"><a class="nav-link" href="#references" role="tab" data-toggle="tab">REAL VIDEO</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="profile">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="buzz">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade" id="references">
+  	<div style="text-align: center; display: block;"><h2>WORK IN PROGRESS</h2><br><h5>This page is Comeing soon</h5></div>
+  </div>
+</div>
+
+</div>		
 	  <footer class="py-4 bg-brand">
     <div class="container">
         <div class="row">
@@ -332,6 +611,70 @@ jQuery(document).ready(function(){
     });
 </script>
 
+
+<!--menubar-->
+<script type="text/javascript">
+$( document ).ready(function() {`$(function() {`
+	$('#showdiv1').click(function() {
+		$('div[id^=div]').hide();
+		$('#div1').fadeIn(3000);
+ 		$('#div1').show();
+	});
+	$('#showdiv3').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div3').fadeIn("slow");` $('#div3').show();
+	});`
+	});
+	$('#showdiv4').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div4').fadeIn("slow");` $('#div4').show();
+	});`
+	});
+	$('#showdiv5').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div5').fadeIn("slow");` $('#div5').show();
+	});`
+	});
+		$('#showdiv2').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div2').fadeIn("slow");` $('#div2').show();
+	});`
+	$('#showdiv6').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div6').fadeIn("slow");` $('#div6').show();
+	});`
+	});
+	$('#showdiv7').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div7').fadeIn("slow");` $('#div7').show();
+	});`
+	});
+		$('#showdiv10').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div10').fadeIn("slow");` $('#div10').show();
+	});`
+	});
+	$('#showdiv101').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div101').fadeIn("slow");` $('#div101').show();
+	});`
+	});
+	$('#showdiv102').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div102').fadeIn("slow");` $('#div102').show();
+	});`
+	});
+	$('#showdiv103').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div103').fadeIn("slow");` $('#div103').show();
+	});`
+	});
+});
+});
+
+</script>
+
+
 <!-- scroll move to top of page-->
 <script type="text/javascript">
   jQuery(document).ready(function($){
@@ -347,6 +690,45 @@ jQuery(document).ready(function(){
         return false;
     });
 });
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+var $imageSrc;  
+$('.gallery img').click(function() {
+    $imageSrc = $(this).data('bigimage');
+});
+console.log($imageSrc);
+  
+  
+  
+// when the modal is opened autoplay it  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+
+$("#image").attr('src', $imageSrc  ); 
+})
+  
+  
+// reset the modal image
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#image").attr('src',''); 
+}) 
+    
+    
+
+
+  
+  
+// document ready  
+});
+
+
+
 </script>
   </body>
 </html>
