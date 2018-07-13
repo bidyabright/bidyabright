@@ -700,8 +700,8 @@ footer a { color: #ccc; }
 .blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
 
 
-.model-portfolio{border: 2px solid #000;}
-.model-portfolio > .modal-dialog{border: 5px solid #002596; max-width: fit-content; background: #fff;}
+.model-portfolio{}
+.model-portfolio > .modal-dialog{border: 2px solid #200179; max-width: fit-content; background: #fff;}
 button.model-close{top: -18px; background: #fff; color: #001f9b; right: -19px; padding: 8px; line-height: 20px; border-radius: 20px; border: 2px solid #002596;}
 
 
@@ -726,13 +726,13 @@ button.model-close{top: -18px; background: #fff; color: #001f9b; right: -19px; p
 .search-box{ display: none }
 .jumbotron img{ width: 100% }
 .side-menu{ display: none }
-.nav-tabs .nav-item {font-size: 12px;}
+.nav-tabs .nav-item {font-size: 8px;}
 .swipenavigation ul li a y, .swipenavigation ul li a k, .swipenavigation ul li a e, .swipenavigation ul li a d, .swipenavigation ul li a n, .swipenavigation ul li a l {display: none}
 .swipenavigation{height: 32px; top: -30px;}
 .swipenavigation ul li a {display: block; height: 33px; line-height: 37px; padding: 0 5px; min-width: 30px;}
 .swipenavigation ul li a c {height: 20px; margin-top: 6px; padding: 0px 5px; line-height: 21px;}
 .swipenavigation .next, .swipenavigation .back {width: 24px; height: 24px; border-radius: 25px; line-height: 26px; background: rgba(0, 0, 0, 0.5); margin: 5px;}
-
+.model-portfolio{padding: 20px}
 .m-r-LR-15 {margin: 0px 0px;}
 .M-B-30{margin-top: -10px; margin-bottom: 22px}
 .contact-list ul li t {font-size: 12px;}
