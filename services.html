@@ -24,13 +24,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <META NAME="keyword" CONTENT="bidyabright, bidyabright services, IT Services, Bala Services">
     <meta name="description" content="bidyabright is a technology agency which provides services such as design & development, troubleshooting, building website and providing social media solutions. Also We provide E- learning service and Web design services">
     <meta name="author" content="">
-    <meta http-equiv="refresh" content="x_seconds; url=http://bitctech.atwebpages.com/services.html">
+    <!--<meta http-equiv="refresh" content="x_seconds; url=http://bitctech.atwebpages.com/services.html">-->
     <!--<link rel="icon" href="../../favicon.ico">-->
     <title>BIDYABRIGHT | Services</title>
     <!-- Bootstrap core CSS -->
     <link href="styles/bootstrap.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
      <link href="styles/font-awesome.css" rel="stylesheet">
+     <style type="text/css">
+     	article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+
+
+/* Pattern styles */
+.container {
+  display: grid;
+}
+     </style>
   </head>
 
 <body>
@@ -93,6 +109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="feedback">
   <ul>
     <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+    <li><a href="service.html"><i class="fa fa-cog"></i></a></li>
     <li><i class="fa fa-envelope" role="button" data-toggle="modal" data-target="#exampleModalLong1"></i></li>
     <li><i class="fa fa-comments" aria-hidden="true"></i></li>
     <li><i class="fa fa-arrow-up" aria-hidden="true" href="#" ID="backToTop"></i></li>
@@ -131,11 +148,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row m-LR-0">
               <div class="col-12 col-sm-4 p-0">
                 <div class="service-card-w">
+                 <a class="button" id="showdiv2" href="#">
                   <div class="bg-c-w-5">
                        <div class="l-icon"></div>
                           <h3>LEARNING</h3>
                         <div class="text-center menu-b-content">
-
                   <div class="popEffect">
                           <span>CODE BASE</span>
                           <span>TECHNOLOGY</span>
@@ -144,10 +161,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         </div>
                   </div>
+                  </a>
                 </div>
               </div>
               <div class="col-12 col-sm-4 p-0">
                 <div class="service-card-b">
+                <a class="button" id="showdiv3" href="#">
                   <div class="de-icon"></div>
                   <div class="bg-c-w-5">
                   <h3>DESIGNING</h3>
@@ -157,12 +176,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <span>SOFTWARE</span>
                           <span>GRAPHICS</span>
                         </div>
-
                   </div>
+                  </a>
                 </div>
               </div>
               <div class="col-12 col-sm-4 p-0">
                 <div class="service-card-o">
+                <a class="button" id="showdiv4" href="#">
                    <div class="d-icon"></div>
                   <div class="bg-c-w-5">
                   <h3>DEVELOPING</h3>
@@ -173,14 +193,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <span>BLOG</span>
                         </div>
                   </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
 <!--  ******************************about us START******************************************-->
+<div class="row m-r-LR-15" id="div1" class="targetDiv">
+<div class="heading-block">
 	<h2 class="text-center m-TB-30">SERVICES</h2>
 	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
  	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
  	<div class="row m-r-LR-15 M-B-15-MB">
  		<p class="M-B-30">A leader in technology solutions and services.Our Business IT solution offerings help clients run their businesses more efficiently and smartly while our Product Engineering solutions enable customers to build products that are energy efficient, cleaner, safer and yield more comfort for their end-customers. Leveraging our technology and domain prowess, we partner with clients to co-create transformational value that provides sustainable competitive advantage to their businesses.</p>
     <p>Our highly focused approach has helped us pioneer innovative solutions and file more than 60 patents in various domains such as Automotive, Very Large Scale Integration (VLSI), High Performance Computing, Manufacturing, Energy, Model Based Design (MBD), among others. Our strong team works at the forefront of technologies and processes to help global corporations become more productive, integrated and innovative enterprises.</p>
@@ -194,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="testimonial-desc cl-1">
                     <!--<div class="s1"></div>-->
                     <div class="testimonial-writer">
-                      <div class="testimonial-writer-name"> CREATIVE DESIGN</div>
+                      <div class="testimonial-writer-name">CREATIVE DESIGN</div>
                       <div class="testimonial-writer-designation">“Styles come and go. Good design is a language, not a style."</div>
                       <!--<a href="#" class="testimonial-writer-company">Readmore...</a>-->
                     </div>
@@ -291,7 +315,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  			    	<img class="m-TB-15" src="images/Logo-design.png" alt="Logo Design" height="70px" width="70px">
  					<h3>LOGO Design</h3>
 					<p>A Logo is a design symbolizing ones organization. ... Logotype is a graphic representation or symbol of a company name, trademark, abbreviation, etc., often uniquely designed for ready recognition. 
-            <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+            <a class="btn view-more-button pull-right button" id="showdiv5" href="#">View more<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
  				</div>
         <div class="strip-line"><c></c></div>
@@ -301,7 +325,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  			    <img class="m-TB-15" src="images/printmanagement.png" alt="Print Management" height="70px" width="70px">
  					<h3>Print Management System</h3>
 					<p>Print management is essentially the management of various print tasks. Some software companies have developed sophisticated print management software to help human users coordinate all of the processes that take place between a printer and the machines that demand print jobs.
-           <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+           <a class="btn view-more-button pull-right button" id="showdiv6" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
  				 </div>
           <div class="strip-line"><c></c></div>
@@ -311,7 +335,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/app-development.png" alt="App Developemnt" height="70px" width="70px">
           <h3>APP Developemnt</h3>
             <p>A mobile app is a computer program designed to run on a mobile device such as a phone/tablet or watch. Mobile applications often stand in contrast to desktop applications that run on desktop computers, and with web applications which run in mobile web browsers rather than directly on the mobile device.
-               <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+               <a class="btn view-more-button pull-right button" id="showdiv7" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -321,7 +345,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/Domian Register.png" alt="Domian Register" height="70px" width="70px">
           <h3>Domian Register</h3>
           <p>A group of computers and devices on a network that are administered as a unit with common rules and procedures. Within the Internet, domains are defined by the IP address. All devices sharing a common part of the IP address are said to be in the same domain.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv8" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -331,7 +355,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/Publish-personal-site.png" alt="" height="70px" width="70px">
           <h3>Publishing personal web sites</h3>
           <p>Website spoofing refers to fraudulent websites that masquerade as legitimate sites by copying the design of the website as well as in some cases utilizing a URL similar to the real site.
-            <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+            <a class="btn view-more-button pull-right button" id="showdiv9" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -341,7 +365,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/Web-development.png" alt="Web Development" height="70px" width="70px">
           <h3>Web Development and Hosting</h3>
           <p>A page template, or Web page template, often refers to a predesigned Web page that you can customize. The page template would include font, style, formatting, tables, graphics and other elements commonly found on a Web page.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv10" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -351,7 +375,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/Email-Template-design.png" alt="Email Template Design" height="70px" width="70px">
           <h3>Email Template Design</h3>
           <p>An email template is a preformatted and/or prewritten email that you can use to replace with your own content so that you can quickly and easily write and create emails.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv11" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -361,7 +385,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/Application-development.png" alt="Application Development" height="70px" width="70px">
           <h3>Application Development</h3>
           <p>An application program (app or application for short) is a computer program designed to perform a group of coordinated functions, tasks, or activities for the benefit of the user. ... This contrasts with system software, which is mainly involved with running the computer.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv12" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -371,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/Help-support-training.png" alt="Help Support Training" height="70px" width="70px">
           <h3>Help, Support, and Training</h3>
           <p>Help, Support, and Training. Support and training resources including the ITS Help Desk,  Design Concept, Codeing Beasic and more.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv13" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -381,7 +405,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/classroom-technology-support.png" alt="" height="70px" width="70px">
           <h3>Classroom Technology Support</h3>
           <p>Classroom Technology Support supports the use of up-to-date and accessible technology in UC Berkeley's General Assignment classrooms. The Classroom Technology support team seeks to assist your technical needs so that your class sessions may progress smoothly and uninterrupted.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv14" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -391,7 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/architure-design.png" alt="Architecture Design" height="70px" width="70px">
           <h3>architecture design</h3>
           <p>Architecture can mean: A general term to describe buildings and other physical structures. The art and science of designing buildings and (some) nonbuilding structures. The style of design and method of construction of buildings and other physical structures.
-            <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+            <a class="btn view-more-button pull-right button" id="showdiv15" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
         <div class="strip-line"><c></c></div>
@@ -401,16 +425,466 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img class="m-TB-15" src="images/product-design.png" alt="Product Design" height="70px" width="70px">
           <h3>Product Design</h3>
           <p>Product design as a verb is to create a new product to be sold by a business to its customers. A very broad concept, it is essentially the efficient and effective generation and development of ideas through a process that leads to new products.
-             <a class="btn btn-default pull-right" role="button" data-toggle="modal" data-target="#exampleModalLong"><i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
+             <a class="btn view-more-button pull-right button" id="showdiv16" href="#">View More<i class="glyphicon glyphicon-edit"><i class="fa fa-eye" aria-hidden="true"></i></i></a>
           </p>
         </div>
-        <div class="strip-line"><c></c></div>
+        <div class="strip-line"><a class="button" id="showdiv3" href="#"><c></c></a></div>
         </div>
         </div>
  	    </div>
       </div>
  	</div>
-<!--  ******************************about us end******************************************-->		
+</div>
+<!--  ******************************about us end******************************************-->	
+
+<!-- ===============LEARING ============================== -->	
+<div id="div3" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">DESIGNING</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better design profitable quality</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+<!-- CODE -->
+    <div class="row">
+    <div class="container">
+    <p></p>
+    </div>
+ <div class="col-12 col-sm-6">
+ <!-- ******* SERVICE BOX START ************* -->
+<div class="container-service">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" class="active" src="gallery/service/logo1A.png" alt="">
+        <img data-image="blue" src="gallery/service/logo1A.png" alt="">
+        <img data-image="red"  src="gallery/service/logo1A.png" alt="">
+        <img data-image="themeA" src="gallery/service/logo1A.png" alt="">
+        <img data-image="themeB" src="gallery/service/logo1A.png" alt="">
+        <img data-image="themeC" src="gallery/service/logo1A.png" alt="">
+      </div>
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <h5>FLAT [REF-1]</h5>
+          <p>DISCRIPTION</p>
+        </div>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color"><span>Color</span>
+            <div class="color-choose">
+              <div><input data-image="red" type="radio" id="red" name="color" value="red" checked><label for="red"><span></span></label></div>
+              <div><input data-image="blue" type="radio" id="blue" name="color" value="blue"><label for="blue"><span></span></label></div>
+              <div><input data-image="black" type="radio" id="black" name="color" value="black"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+           <!-- Product THEME -->
+           <div class="product-theme">
+            <span>THEME</span>
+            <div class="color-choose">
+              <div><input data-image="themeA" type="radio" id="themeA" name="color" value="themeA" checked><label for="red"><span></span></label></div>
+              <div><input data-image="themeB" type="radio" id="themeB" name="color" value="themeB"><label for="blue"><span></span></label></div>
+              <div><input data-image="themeC" type="radio" id="themeC" name="color" value="themeC"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+      </div>
+  </div>
+  <!-- ******* SERVICE BOX START ************* -->
+</div>
+<div class="col-12 col-sm-6">
+ <!-- ******* SERVICE BOX START ************* -->
+<div class="container-service">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" class="active" src="gallery/service/logo2A.png" alt="">
+        <img data-image="blue" src="gallery/service/logo2A.png" alt="">
+        <img data-image="red"  src="gallery/service/logo2A.png" alt="">
+        <img data-image="themeA" src="gallery/service/logo2A.png" alt="">
+        <img data-image="themeB" src="gallery/service/logo2A.png" alt="">
+        <img data-image="themeC" src="gallery/service/logo2A.png" alt="">
+      </div>
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <h5>3D GRAPHICS EFFECT [REF-2]</h5>
+          <p>DISCRIPTION</p>
+        </div>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color"><span>Color</span>
+            <div class="color-choose">
+              <div><input data-image="red" type="radio" id="red" name="color" value="red" checked><label for="red"><span></span></label></div>
+              <div><input data-image="blue" type="radio" id="blue" name="color" value="blue"><label for="blue"><span></span></label></div>
+              <div><input data-image="black" type="radio" id="black" name="color" value="black"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+           <!-- Product THEME -->
+           <div class="product-theme">
+            <span>THEME</span>
+            <div class="color-choose">
+              <div><input data-image="themeA" type="radio" id="themeA" name="color" value="themeA" checked><label for="red"><span></span></label></div>
+              <div><input data-image="themeB" type="radio" id="themeB" name="color" value="themeB"><label for="blue"><span></span></label></div>
+              <div><input data-image="themeC" type="radio" id="themeC" name="color" value="themeC"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+      </div>
+  </div>
+
+</div>
+<div class="col-12 col-sm-6">
+ <!-- ******* SERVICE BOX START ************* -->
+<div class="container-service">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" class="active" src="gallery/service/logo3A.png" alt="">
+        <img data-image="blue" src="gallery/service/logo3A.png" alt="">
+        <img data-image="red"  src="gallery/service/logo3A.png" alt="">
+        <img data-image="themeA" src="gallery/service/logo3A.png" alt="">
+        <img data-image="themeB" src="gallery/service/logo3A.png" alt="">
+        <img data-image="themeC" src="gallery/service/logo3A.png" alt="">
+      </div>
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <h5>3D EFFECT [ REF -3 ]</h5>
+          <p>DISCRIPTION</p>
+        </div>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color"><span>Color</span>
+            <div class="color-choose">
+              <div><input data-image="red" type="radio" id="red" name="color" value="red" checked><label for="red"><span></span></label></div>
+              <div><input data-image="blue" type="radio" id="blue" name="color" value="blue"><label for="blue"><span></span></label></div>
+              <div><input data-image="black" type="radio" id="black" name="color" value="black"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+           <!-- Product THEME -->
+           <div class="product-theme">
+            <span>THEME</span>
+            <div class="color-choose">
+              <div><input data-image="themeA" type="radio" id="themeA" name="color" value="themeA" checked><label for="red"><span></span></label></div>
+              <div><input data-image="themeB" type="radio" id="themeB" name="color" value="themeB"><label for="blue"><span></span></label></div>
+              <div><input data-image="themeC" type="radio" id="themeC" name="color" value="themeC"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+      </div>
+  </div>
+  <!-- ******* SERVICE BOX START ************* -->
+</div>
+<div class="col-12 col-sm-6">
+ <!-- ******* SERVICE BOX START ************* -->
+<div class="container-service">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" class="active" src="gallery/service/logo4A.png" alt="">
+        <img data-image="blue" src="gallery/service/logo4A.png" alt="">
+        <img data-image="red"  src="gallery/service/logo4A.png" alt="">
+        <img data-image="themeA" src="gallery/service/logo4A.png" alt="">
+        <img data-image="themeB" src="gallery/service/logo4A.png" alt="">
+        <img data-image="themeC" src="gallery/service/logo4A.png" alt="">
+      </div>
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <h5>DWON FLAT [ REF -4 ]</h5>
+          <p>DISCRIPTION</p>
+        </div>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color"><span>Color</span>
+            <div class="color-choose">
+              <div><input data-image="red" type="radio" id="red" name="color" value="red" checked><label for="red"><span></span></label></div>
+              <div><input data-image="blue" type="radio" id="blue" name="color" value="blue"><label for="blue"><span></span></label></div>
+              <div><input data-image="black" type="radio" id="black" name="color" value="black"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+           <!-- Product THEME -->
+           <div class="product-theme">
+            <span>THEME</span>
+            <div class="color-choose">
+              <div><input data-image="themeA" type="radio" id="themeA" name="color" value="themeA" checked><label for="red"><span></span></label></div>
+              <div><input data-image="themeB" type="radio" id="themeB" name="color" value="themeB"><label for="blue"><span></span></label></div>
+              <div><input data-image="themeC" type="radio" id="themeC" name="color" value="themeC"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+      </div>
+  </div>
+  <!-- ******* SERVICE BOX START ************* -->
+</div>
+<div class="col-12 col-sm-6">
+ <!-- ******* SERVICE BOX START ************* -->
+<div class="container-service">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" class="active" src="gallery/service/logo5A.png" alt="">
+        <img data-image="blue" src="gallery/service/logo5A.png" alt="">
+        <img data-image="red"  src="gallery/service/logo5A.png" alt="">
+        <img data-image="themeA" src="gallery/service/logo5A.png" alt="">
+        <img data-image="themeB" src="gallery/service/logo5A.png" alt="">
+        <img data-image="themeC" src="gallery/service/logo5A.png" alt="">
+      </div>
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <h5>3D Grpahics TEXT [ REF -5 ]</h5>
+          <p>DISCRIPTION</p>
+        </div>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color"><span>Color</span>
+            <div class="color-choose">
+              <div><input data-image="red" type="radio" id="red" name="color" value="red" checked><label for="red"><span></span></label></div>
+              <div><input data-image="blue" type="radio" id="blue" name="color" value="blue"><label for="blue"><span></span></label></div>
+              <div><input data-image="black" type="radio" id="black" name="color" value="black"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+           <!-- Product THEME -->
+           <div class="product-theme">
+            <span>THEME</span>
+            <div class="color-choose">
+              <div><input data-image="themeA" type="radio" id="themeA" name="color" value="themeA" checked><label for="red"><span></span></label></div>
+              <div><input data-image="themeB" type="radio" id="themeB" name="color" value="themeB"><label for="blue"><span></span></label></div>
+              <div><input data-image="themeC" type="radio" id="themeC" name="color" value="themeC"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+      </div>
+  </div>
+  <!-- ******* SERVICE BOX START ************* -->
+</div>
+<div class="col-12 col-sm-6">
+ <!-- ******* SERVICE BOX START ************* -->
+<div class="container-service">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" class="active" src="gallery/service/logo6A.png" alt="">
+        <img data-image="blue" src="gallery/service/logo6A.png" alt="">
+        <img data-image="red"  src="gallery/service/logo6A.png" alt="">
+        <img data-image="themeA" src="gallery/service/logo6A.png" alt="">
+        <img data-image="themeB" src="gallery/service/logo6A.png" alt="">
+        <img data-image="themeC" src="gallery/service/logo6A.png" alt="">
+      </div>
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <h5>3D BOLD [ REF -6 ]</h5>
+          <p>DISCRIPTION</p>
+        </div>
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color"><span>Color</span>
+            <div class="color-choose">
+              <div><input data-image="red" type="radio" id="red" name="color" value="red" checked><label for="red"><span></span></label></div>
+              <div><input data-image="blue" type="radio" id="blue" name="color" value="blue"><label for="blue"><span></span></label></div>
+              <div><input data-image="black" type="radio" id="black" name="color" value="black"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+           <!-- Product THEME -->
+           <div class="product-theme">
+            <span>THEME</span>
+            <div class="color-choose">
+              <div><input data-image="themeA" type="radio" id="themeA" name="color" value="themeA" checked><label for="red"><span></span></label></div>
+              <div><input data-image="themeB" type="radio" id="themeB" name="color" value="themeB"><label for="blue"><span></span></label></div>
+              <div><input data-image="themeC" type="radio" id="themeC" name="color" value="themeC"><label for="black"><span></span></label></div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+      </div>
+  </div>
+  <!-- ******* SERVICE BOX START ************* -->
+</div>
+    </div>
+<!-- CODE -->
+</div>
+</div>	
+<!-- ===============LEARING ============================== -->	
+<div id="div2" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">LEARN</h2>
+	<h4 class="text-center .font-xs-s M-B-30">Better Learn profitable Results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+ 	<!-- CODE -->
+    <div class="row">
+     	<div class="row m-r-LR-15 M-B-15-MB">
+ 		<p class="M-B-30">Educational technology is <b>"the study and ethical practice of facilitating learning and improving performance by creating, using, and managing appropriate technological processes and resources".</b> Educational technology is the use of both physical hardware and educational theoretics. It encompasses several domains including learning theory, computer-based training, online learning, and where mobile technologies are used, m-learning. Accordingly, there are several discrete aspects to describing the intellectual and technical development of educational technology:</p>
+	</div>
+    
+        <div class="col-12 col-sm-6">
+        <section class="container">
+  <div class="left-half"><article><img data-image="black" class="active img-w-50" src="gallery/service/Edu1A.jpg" alt=""></article></div>
+  <div class="right-half">
+    <article>
+      <!-- Product Description -->
+        <div class="product-description"><h5>NAME</h5><p>DISCRIPTION</p></div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+    </article>
+  </div>
+</secion>
+
+</div>
+<div class="col-12 col-sm-6">
+
+<!-- PRODUCT SERVICE BOX  -->
+<section class="container">
+  <div class="left-half"><article><img data-image="black" class="active img-w-50" src="gallery/service/Edu2A.jpg" alt=""></article></div>
+  <div class="right-half">
+    <article>
+      <!-- Product Description -->
+        <div class="product-description"><h5>NAME</h5><p>DISCRIPTION</p></div>
+        <!-- Product Pricing -->
+        <div class="product-price"><h6>Starting Price <span class="label label-default"><span>&#8377;</span>200</span></h6></div>
+        <a href="#" class="cart-btn" role="button" data-toggle="modal" data-target="#exampleModalLong1">REGISTER</a>
+    </article>
+  </div>
+</secion>
+
+
+</div>
+    </div>
+<!-- CODE -->
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div4" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">APP DEVELOPMENT</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div5" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">LOGO DESIGN</h2>
+	<h4 class="text-center .font-xs-s M-B-30">LOGO DESIGN</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div6" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">PRINT MANAGEMENT SYSTEM</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div7" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">APP DEVELOPMENT</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div7" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">DOMAIN REGISTER</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div9" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">PUBLISHING PERSONAL WEBSITE</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div10" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">WEB DEVELOPMENT AND HOSTING</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div11" class="p-15">
+<div heading-block>
+	<h2 class="text-center m-TB-30">EMAIL TEMPLATE DESIGN</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div12" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">APPLICATION DEVELOPMENT</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div12" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">HELP SUPORT AND TRAINING</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div14" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">CLASSROOM SUPPORT</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>
+<!-- ===============LEARING ============================== -->	
+<div id="div15" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">ARCHITURE DESIGN</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+</div>		
+<!-- ===============LEARING ============================== -->	
+<div id="div16" class="p-15">
+	<div heading-block>
+	<h2 class="text-center m-TB-30">PRODUCT DESIGN</h2>
+	<h4 class="text-center .font-xs-s M-B-30">better solutions profitable results</h4>
+ 	<div class="strip-line m-r-LR-15"><c></c></div>
+</div>
+
+</div>	
+<!--pael ed-->
+
+
   <footer class="py-4 bg-brand">
     <div class="container">
         <div class="row">
@@ -450,20 +924,136 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         </div>
         </div>
-</footer> 				<!--pael ed-->
-      					
+</footer>
+
+</div>      				
 </div>
-</div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+<!-- Bootstrap core JavaScript================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <!--menu responsive-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
-
+    <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
     <!--menu responsive-->
     <script src="js/bootstrap.js"></script>
     <!--<script src="jquery-3.2.1.js"></script>-->
+    <!--menubar-->
+<script type="text/javascript">
+$( document ).ready(function() {`$(function() {`
+	$('#showdiv1').click(function() {
+		$('div[id^=div]').hide();
+		$('#div1').fadeIn(3000);
+ 		$('#div1').show();
+	});
+	$('#showdiv3').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div3').fadeIn("slow");` $('#div3').show();
+	});`
+	});
+	$('#showdiv4').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div4').fadeIn("slow");` $('#div4').show();
+	});`
+	});
+	$('#showdiv5').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div5').fadeIn("slow");` $('#div5').show();
+	});`
+	});
+	$('#showdiv6').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div6').fadeIn("slow");` $('#div6').show();
+	});`
+	});
+	$('#showdiv7').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div7').fadeIn("slow");` $('#div7').show();
+	});`
+	});
+	$('#showdiv8').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div8').fadeIn("slow");` $('#div8').show();
+	});`
+	});
+	$('#showdiv9').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div9').fadeIn("slow");` $('#div9').show();
+	});`
+	});
+	$('#showdiv10').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div10').fadeIn("slow");` $('#div10').show();
+	});`
+	});
+		$('#showdiv10').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div10').fadeIn("slow");` $('#div10').show();
+	});`
+	});
+	$('#showdiv11').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div11').fadeIn("slow");` $('#div11').show();
+	});`
+	});
+	$('#showdiv12').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div12').fadeIn("slow");` $('#div12').show();
+	});`
+	});
+	$('#showdiv13').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div13').fadeIn("slow");` $('#div13').show();
+	});`
+	});
+	$('#showdiv14').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div14').fadeIn("slow");` $('#div14').show();
+	});`
+	});
+	$('#showdiv15').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div15').fadeIn("slow");` $('#div15').show();
+	});`
+	});
+	$('#showdiv16').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div16').fadeIn("slow");` $('#div16').show();
+	});`
+	});
+	$('#showdiv17').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div17').fadeIn("slow");` $('#div17').show();
+	});`
+	});
+	$('#showdiv18').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div18').fadeIn("slow");` $('#div18').show();
+	});`
+	});
+		$('#showdiv2').click(function() {
+		$('div[id^=div]').hide();
+    	$('#div2').fadeIn("slow");` $('#div2').show();
+	});`
+
+});
+});
+
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+
+  $('.color-choose input').on('click', function() {
+      var headphonesColor = $(this).attr('data-image');
+
+      $('.active').removeClass('active');
+      $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+      $(this).addClass('active');
+  });
+
+});
+
+</script>
+
   </body>
 </html>
